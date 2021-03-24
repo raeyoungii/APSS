@@ -9,10 +9,7 @@ bool areFriends[10][10];
 int dfs(bool vst[10]) {
     int firstFree = -1;
     for (int i = 0; i < n; i++) {
-        if (!vst[i]) {
-            firstFree = i;
-            break;
-        }
+        if (!vst[i]) { firstFree = i; break; }
     }
     if (firstFree == -1) return 1;
     int ret = 0;
@@ -40,7 +37,7 @@ void solve() {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int t; cin >> t;
-    while(t--) solve();
+    int C; cin >> C;
+    while(C--) solve();
     return 0;
 }

@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -143,32 +143,32 @@ APSS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/build
 .PHONY : APSS/fast
 
-Brute_Force/BOARDCOVER.o: Brute_Force/BOARDCOVER.cpp.o
+Divide_and_Conquer/FENCE.o: Divide_and_Conquer/FENCE.cpp.o
 
-.PHONY : Brute_Force/BOARDCOVER.o
+.PHONY : Divide_and_Conquer/FENCE.o
 
 # target to build an object file
-Brute_Force/BOARDCOVER.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o
-.PHONY : Brute_Force/BOARDCOVER.cpp.o
+Divide_and_Conquer/FENCE.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o
+.PHONY : Divide_and_Conquer/FENCE.cpp.o
 
-Brute_Force/BOARDCOVER.i: Brute_Force/BOARDCOVER.cpp.i
+Divide_and_Conquer/FENCE.i: Divide_and_Conquer/FENCE.cpp.i
 
-.PHONY : Brute_Force/BOARDCOVER.i
+.PHONY : Divide_and_Conquer/FENCE.i
 
 # target to preprocess a source file
-Brute_Force/BOARDCOVER.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.i
-.PHONY : Brute_Force/BOARDCOVER.cpp.i
+Divide_and_Conquer/FENCE.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.i
+.PHONY : Divide_and_Conquer/FENCE.cpp.i
 
-Brute_Force/BOARDCOVER.s: Brute_Force/BOARDCOVER.cpp.s
+Divide_and_Conquer/FENCE.s: Divide_and_Conquer/FENCE.cpp.s
 
-.PHONY : Brute_Force/BOARDCOVER.s
+.PHONY : Divide_and_Conquer/FENCE.s
 
 # target to generate assembly for a file
-Brute_Force/BOARDCOVER.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.s
-.PHONY : Brute_Force/BOARDCOVER.cpp.s
+Divide_and_Conquer/FENCE.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.s
+.PHONY : Divide_and_Conquer/FENCE.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... APSS"
-	@echo "... Brute_Force/BOARDCOVER.o"
-	@echo "... Brute_Force/BOARDCOVER.i"
-	@echo "... Brute_Force/BOARDCOVER.s"
+	@echo "... Divide_and_Conquer/FENCE.o"
+	@echo "... Divide_and_Conquer/FENCE.i"
+	@echo "... Divide_and_Conquer/FENCE.s"
 .PHONY : help
 
 

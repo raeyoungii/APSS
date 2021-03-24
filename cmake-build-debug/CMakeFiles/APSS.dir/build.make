@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/raeyoungkim/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7717.62/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,27 +77,27 @@ include CMakeFiles/APSS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/APSS.dir/flags.make
 
-CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o: CMakeFiles/APSS.dir/flags.make
-CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o: ../Brute_Force/BOARDCOVER.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o -c /Users/raeyoungkim/CLionProjects/APSS/Brute_Force/BOARDCOVER.cpp
+CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o: CMakeFiles/APSS.dir/flags.make
+CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o: ../Divide_and_Conquer/FENCE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o -c /Users/raeyoungkim/CLionProjects/APSS/Divide_and_Conquer/FENCE.cpp
 
-CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raeyoungkim/CLionProjects/APSS/Brute_Force/BOARDCOVER.cpp > CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.i
+CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raeyoungkim/CLionProjects/APSS/Divide_and_Conquer/FENCE.cpp > CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.i
 
-CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raeyoungkim/CLionProjects/APSS/Brute_Force/BOARDCOVER.cpp -o CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.s
+CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raeyoungkim/CLionProjects/APSS/Divide_and_Conquer/FENCE.cpp -o CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.s
 
 # Object files for target APSS
 APSS_OBJECTS = \
-"CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o"
+"CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o"
 
 # External object files for target APSS
 APSS_EXTERNAL_OBJECTS =
 
-APSS: CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o
+APSS: CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o
 APSS: CMakeFiles/APSS.dir/build.make
 APSS: CMakeFiles/APSS.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable APSS"

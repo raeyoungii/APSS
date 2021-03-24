@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/raeyoungkim/CLionProjects/APSS/Brute_Force/BOARDCOVER.cpp" "/Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug/CMakeFiles/APSS.dir/Brute_Force/BOARDCOVER.cpp.o"
+  "/Users/raeyoungkim/CLionProjects/APSS/Divide_and_Conquer/FENCE.cpp" "/Users/raeyoungkim/CLionProjects/APSS/cmake-build-debug/CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
