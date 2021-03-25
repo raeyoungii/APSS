@@ -3,12 +3,12 @@
 using namespace std;
 typedef long long ll;
 
-int solve(vector<int> &h, int left, int right) {
+int fence(vector<int>& h, int left, int right) {
     // 기저사례: 판자가 하나밖에 없는 경우
     if (left == right) return h[left];
     int mid = (left + right) / 2;
     // 가장 큰 직사각형이 왼쪽 or 오른쪽에 있을때
-    int ret = max(solve(h, left, mid), solve(h, mid + 1, right));
+    int ret = max(fence(h, left, mid), fence(h, mid + 1, right));
     // 가장 큰 직사각형이 두 부분에 걸칠때
     int lo = mid, hi = mid + 1;
     int height = min(h[lo], h[hi]);
@@ -28,16 +28,16 @@ int solve(vector<int> &h, int left, int right) {
     }
     return ret;
 }
-
+void solve() {
+    int n; cin >> n;
+    vector<int> h(n);
+    for (int i = 0; i < n; i++) cin >> h[i];
+    cout << fence(h, 0, n - 1) << "\n";
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int C; cin >> C;
-    while(C--) {
-        int n; cin >> n;
-        vector<int> h(n);
-        for (int i = 0; i < n; i++) cin >> h[i];
-        cout << solve(h, 0, n - 1) << "\n";
-    }
+    while(C--) solve();
     return 0;
 }

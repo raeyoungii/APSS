@@ -7,7 +7,7 @@ typedef long long ll;
 
 char decompressed[MAX_SIZE][MAX_SIZE];
 
-void decompress(string::iterator &it, int y, int x, int size) {
+void decompress(string::iterator& it, int y, int x, int size) {
     // 한 글자를 검사할 때마다 반복자를 한 칸 앞으로 옮긴다.
     char head = *(it++);
     // 기저 사례: 첫 글자가 b 또는 w인 경우
@@ -29,7 +29,7 @@ void decompress(string::iterator &it, int y, int x, int size) {
 void solve() {
     string s; cin >> s;
     int size = 1;
-    for (auto &c : s) { if (c == 'x') size *= 4; }
+    for (auto& c : s) { if (c == 'x') size *= 4; }
     string::iterator it = s.begin();
     decompress(it, 0, 0, size);
 }

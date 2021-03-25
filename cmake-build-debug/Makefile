@@ -143,32 +143,32 @@ APSS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/build
 .PHONY : APSS/fast
 
-Divide_and_Conquer/FENCE.o: Divide_and_Conquer/FENCE.cpp.o
+Dynamic_Programming/JUMPGAME.o: Dynamic_Programming/JUMPGAME.cpp.o
 
-.PHONY : Divide_and_Conquer/FENCE.o
+.PHONY : Dynamic_Programming/JUMPGAME.o
 
 # target to build an object file
-Divide_and_Conquer/FENCE.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.o
-.PHONY : Divide_and_Conquer/FENCE.cpp.o
+Dynamic_Programming/JUMPGAME.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.o
+.PHONY : Dynamic_Programming/JUMPGAME.cpp.o
 
-Divide_and_Conquer/FENCE.i: Divide_and_Conquer/FENCE.cpp.i
+Dynamic_Programming/JUMPGAME.i: Dynamic_Programming/JUMPGAME.cpp.i
 
-.PHONY : Divide_and_Conquer/FENCE.i
+.PHONY : Dynamic_Programming/JUMPGAME.i
 
 # target to preprocess a source file
-Divide_and_Conquer/FENCE.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.i
-.PHONY : Divide_and_Conquer/FENCE.cpp.i
+Dynamic_Programming/JUMPGAME.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.i
+.PHONY : Dynamic_Programming/JUMPGAME.cpp.i
 
-Divide_and_Conquer/FENCE.s: Divide_and_Conquer/FENCE.cpp.s
+Dynamic_Programming/JUMPGAME.s: Dynamic_Programming/JUMPGAME.cpp.s
 
-.PHONY : Divide_and_Conquer/FENCE.s
+.PHONY : Dynamic_Programming/JUMPGAME.s
 
 # target to generate assembly for a file
-Divide_and_Conquer/FENCE.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Divide_and_Conquer/FENCE.cpp.s
-.PHONY : Divide_and_Conquer/FENCE.cpp.s
+Dynamic_Programming/JUMPGAME.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.s
+.PHONY : Dynamic_Programming/JUMPGAME.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... APSS"
-	@echo "... Divide_and_Conquer/FENCE.o"
-	@echo "... Divide_and_Conquer/FENCE.i"
-	@echo "... Divide_and_Conquer/FENCE.s"
+	@echo "... Dynamic_Programming/JUMPGAME.o"
+	@echo "... Dynamic_Programming/JUMPGAME.i"
+	@echo "... Dynamic_Programming/JUMPGAME.s"
 .PHONY : help
 
 

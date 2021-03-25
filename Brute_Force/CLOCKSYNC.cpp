@@ -17,14 +17,14 @@ const char linked[SWITCHES][CLOCKS + 1] = {
         "...xxx...x...x.."
 };
 
-bool areAligned(vector<int> &clocks) {
+bool areAligned(vector<int>& clocks) {
     for (int i = 0; i < CLOCKS; i++) {
         if (clocks[i] != 12) return false;
     }
     return true;
 }
 
-void push(vector<int> &clocks, int swtch) {
+void push(vector<int>& clocks, int swtch) {
     for (int i = 0; i < CLOCKS; i++) {
         if (linked[swtch][i] == 'x') {
             clocks[i] = (clocks[i] + 2) % 12 + 1;
@@ -32,7 +32,7 @@ void push(vector<int> &clocks, int swtch) {
     }
 }
 
-int dfs(vector<int> &clocks, int swtch) {
+int dfs(vector<int>& clocks, int swtch) {
     if (swtch == SWITCHES) return areAligned(clocks) ? 0 : INF;
     int ret = INF;
     for (int i = 0; i < 4; i++) {

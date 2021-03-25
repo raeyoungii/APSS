@@ -3,4 +3,4 @@ project(APSS)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(APSS Divide_and_Conquer/FENCE.cpp)
+add_executable(APSS Dynamic_Programming/JUMPGAME.cpp)

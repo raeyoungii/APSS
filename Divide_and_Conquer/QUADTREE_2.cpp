@@ -3,7 +3,7 @@
 using namespace std;
 typedef long long ll;
 
-string reverse(string::iterator &it) {
+string reverse(string::iterator& it) {
     char head = *(it++);
     if (head == 'b' || head == 'w') return string(1, head);
     string upperLeft = reverse(it);

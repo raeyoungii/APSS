@@ -22,7 +22,7 @@ bool chk(vector<vector<int> >& board, int y, int x, int type, int delta) {
     return ok;
 }
 
-int dfs(vector<vector<int> > &board) {
+int dfs(vector<vector<int> >& board) {
     int y = -1, x = -1;
     for (int i = 0; i < H; i++) {
         for (int j = 0; j < W; j++) {
