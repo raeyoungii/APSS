@@ -9,8 +9,10 @@ int cache[101][101];
 int jump(int y, int x) {
     if (y >= n || x >= n) return 0;
     if (y == n - 1 && x == n - 1) return 1;
-    int &ret = cache[y][x];
+    int& ret = cache[y][x];
     if (ret != -1) return ret;
+    int jumpSize = board[y][x];
+    return ret = (jump(y + jumpSize, x) || jump(y, x + jumpSize));
 }
 
 void solve() {
@@ -20,6 +22,8 @@ void solve() {
             cin >> board[i][j];
         }
     }
+    memset(cache, -1, sizeof(cache));
+    cout << (jump(0, 0) ? "YES\n" : "NO\n");
 }
 
 int main() {

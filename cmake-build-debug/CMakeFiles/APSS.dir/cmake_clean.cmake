@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "APSS"
   "APSS.pdb"
-  "CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.o"
+  "CMakeFiles/APSS.dir/Dynamic_Programming/KLIS.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

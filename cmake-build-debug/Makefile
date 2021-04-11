@@ -143,32 +143,32 @@ APSS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/build
 .PHONY : APSS/fast
 
-Dynamic_Programming/JUMPGAME.o: Dynamic_Programming/JUMPGAME.cpp.o
+Dynamic_Programming/KLIS.o: Dynamic_Programming/KLIS.cpp.o
 
-.PHONY : Dynamic_Programming/JUMPGAME.o
+.PHONY : Dynamic_Programming/KLIS.o
 
 # target to build an object file
-Dynamic_Programming/JUMPGAME.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.o
-.PHONY : Dynamic_Programming/JUMPGAME.cpp.o
+Dynamic_Programming/KLIS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/KLIS.cpp.o
+.PHONY : Dynamic_Programming/KLIS.cpp.o
 
-Dynamic_Programming/JUMPGAME.i: Dynamic_Programming/JUMPGAME.cpp.i
+Dynamic_Programming/KLIS.i: Dynamic_Programming/KLIS.cpp.i
 
-.PHONY : Dynamic_Programming/JUMPGAME.i
+.PHONY : Dynamic_Programming/KLIS.i
 
 # target to preprocess a source file
-Dynamic_Programming/JUMPGAME.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.i
-.PHONY : Dynamic_Programming/JUMPGAME.cpp.i
+Dynamic_Programming/KLIS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/KLIS.cpp.i
+.PHONY : Dynamic_Programming/KLIS.cpp.i
 
-Dynamic_Programming/JUMPGAME.s: Dynamic_Programming/JUMPGAME.cpp.s
+Dynamic_Programming/KLIS.s: Dynamic_Programming/KLIS.cpp.s
 
-.PHONY : Dynamic_Programming/JUMPGAME.s
+.PHONY : Dynamic_Programming/KLIS.s
 
 # target to generate assembly for a file
-Dynamic_Programming/JUMPGAME.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/JUMPGAME.cpp.s
-.PHONY : Dynamic_Programming/JUMPGAME.cpp.s
+Dynamic_Programming/KLIS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/APSS.dir/build.make CMakeFiles/APSS.dir/Dynamic_Programming/KLIS.cpp.s
+.PHONY : Dynamic_Programming/KLIS.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... APSS"
-	@echo "... Dynamic_Programming/JUMPGAME.o"
-	@echo "... Dynamic_Programming/JUMPGAME.i"
-	@echo "... Dynamic_Programming/JUMPGAME.s"
+	@echo "... Dynamic_Programming/KLIS.o"
+	@echo "... Dynamic_Programming/KLIS.i"
+	@echo "... Dynamic_Programming/KLIS.s"
 .PHONY : help
 
 

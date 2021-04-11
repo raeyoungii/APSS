@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/raeyoungkim/CLionProjects/APSS/Dynamic_Programming/JUMPGAME.cpp">
+		<Unit filename="/Users/raeyoungkim/CLionProjects/APSS/Dynamic_Programming/KLIS.cpp">
 			<Option target="APSS"/>
 		</Unit>
 		<Unit filename="/Users/raeyoungkim/CLionProjects/APSS/CMakeLists.txt">
